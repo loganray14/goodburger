@@ -44,6 +44,7 @@ main {
   font-size: xx-large;
   display: flex;
   justify-content: center;
+  font-family: 'Playfair Display', serif;
 }
 
 main h1 {
@@ -63,12 +64,17 @@ main p {
   justify-content: center;
 }
 
+.gb-body-text {
+  font-weight: 700;
+}
+
 .gb-logo {
   width: 150px;
   margin-left: 30px;
 }
 
 .gb-employees {
+  border: 10px solid #B20908;
   margin-top: 150px;
   border-radius: 10px;
   width: 50%;
@@ -80,6 +86,7 @@ main p {
 
 .gb-order-button{
   border-radius: 20px;
+  max-width:fit-content;
 }
 
 .gb-order-button:hover {
@@ -100,5 +107,48 @@ main p {
 }
 
 .gb-menu h2 {
-  color: #B20908
+  color: #B20908;
+  border-style: none none solid none;
+}
+
+.gb-order {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gb-order h3 {
+  color: #B20908;
+  border-style: none none solid none;
+}
+
+.gb-thanks {
+  margin-top: 150px;
+}
+
+.gb-thanks h2 {
+  color: #B20908;
+}
+
+.gb-locations {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gb-locations h2 {
+  color: #B20908;
+}
+
+.gb-locations p {
+  line-height: 2px;
+  font-weight: 700;
+}
+
+.gb-contact {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }

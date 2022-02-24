@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Good Burger</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  
+  <header>
+    <div class="gb-navbar">
+      <a href="index.html"><img src="img/good-burger.png" class="gb-logo" alt="Good Burger Logo"></a>
+      <div class="gb-buttons">
+        <a href="menu-page.html">Menu</a>
+        <a href="locations-page.html">Locations</a>
+        <a href="contact-page.html">Contact</a>
+      </div>
+    </div>
+  </header>  
+
+  <main>
+    <div class="gb-order">
+        <h2>Order Online</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email">
+          </form>
+            <h3>Burgers</h3>
+                <form class="gb-order-burgers">
+                    <input type="checkbox" id="single gb" name="single gb" value="Goodburger">
+                    <label for="single gb">Goodburger - $5</label><br>
+                    <input type="checkbox" id="double gb" name="double gb" value="Double Goodburger">
+                    <label for="double gb">Double Goodburger - $6</label><br>
+                    <input type="checkbox" id="triple gb" name="triple gb" value="Triple Goodburger">
+                    <label for="triple gb">Triple Goodburger - $7</label><br>
+                    <input type="checkbox" id="bacon gb" name="bacon gb" value="Bacon Goodburger">
+                    <label for="bacon gb">Bacon Goodburger - $8</label><br>
+                    <input type="checkbox" id="vegan gb" name="vegan gb" value="Vegan Goodburger">
+                    <label for="vegan gb">Vegan Goodburger - $20</label><br>
+                </form>
+            <h3>Hot Dogs</h3>
+                <form class="gb-order-dogs">
+                    <input type="checkbox" id="gd" name="gd" value="Good Dog">
+                    <label for="gd">Good Dog - $5</label><br>
+                    <input type="checkbox" id="cheesy gd" name="cheesy gd" value="Cheesy Good Dog">
+                    <label for="cheesy gd">Cheesy Good Dog - $6</label><br>
+                    <input type="checkbox" id="chili gd" name="chili gd" value="Chili Cheesy Good Dog">
+                    <label for="chili gd">Chili Cheesy Good Dog - $7</label><br>
+                    <input type="checkbox" id="vegan gd" name="vegan gd" value="Vegan Good Dog">
+                    <label for="vegan gd">Vegan Good Dog - $20</label><br>
+                </form>
+            <h3>Sides</h3>
+                <form>
+                    <input type="checkbox" id="fries" name="fries" value="Fries">
+                    <label for="fries">Fries - $3</label><br>
+                    <input type="checkbox" id="tots" name="tots" value="Tots">
+                    <label for="tots">Tots - $3</label><br>
+                    <input type="checkbox" id="or" name="or" value="Onion Rings">
+                    <label for="or">Onion Rings - $4</label><br>
+                </form>
+            <h3>Shakes</h3>
+                <form action="thanks-page.html">
+                    <input type="checkbox" id="choco" name="choco" value="Chocolate">
+                    <label for="choco">Chocolate - $6</label><br>
+                    <input type="checkbox" id="van" name="van" value="Vanilla">
+                    <label for="van">Vanilla - $6</label><br>
+                    <input type="checkbox" id="straw" name="straw" value="Strawberry">
+                    <label for="straw">Strawberry - $6</label><br>
+                    <input type="submit" value="Submit">
+                </form>
+    </div>
+  </main>
+
+</body>
+
+</html>
