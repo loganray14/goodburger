@@ -18,6 +18,10 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -26,19 +30,22 @@
   
   <header>
     <div class="gb-navbar">
-      <img src="img/good-burger.png" alt="Good Burger Logo">
-      <a href="menu-page.html">Menu</a>
-      <a href="locations-page.html">Locations</a>
-      <a href="contact-page.html">Contact</a>
+      <img src="img/good-burger.png" class="gb-logo" alt="Good Burger Logo">
+      <div class="gb-buttons">
+        <a href="menu-page.html">Menu</a>
+        <a href="locations-page.html">Locations</a>
+        <a href="contact-page.html">Contact</a>
+      </div>
     </div>
   </header>  
 
   <main>
-    <div>
-      <img src="img/goodburger-ad.jpg" alt="Good Burger Employees">
-      <p>"Welcome to Good Burger, home of the Good Burger!" We've been flippin' the <em>goodest</em> patties since '97. We use only the <em>goodest</em> ingredients and cook to order.</p>
-      <a href="order-page.html">Order Now!</a>
-  </div>
+    <img src="img/goodburger-ad.jpg" class="gb-employees" alt="Good Burger Employees">
+      <div class="gb-landing">
+        <p class="gb-welcome">Welcome to Good Burger, home of the Good Burger!</p>
+        <p class="gb-body-text">We've been flippin' the <em>goodest</em> patties since '97. We use only the <em>goodest</em> ingredients and cook to order.</p>
+        <a class="gb-order-button" href="order-page.html">Order Now!</a>
+      </div>
 </main>
 
 </body>
