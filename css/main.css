@@ -1,32 +1,73 @@
-body {
-  background-color: #efefef;
-}
-
-.css-intro-image {
-  width: 100%;
-}
-
-.css-intro-section-headline {
-  color: #666;
-}
-
-.css-intro-images {
+.gb-navbar {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed; 
+  background-color: red;
+  top: 0; 
+  width: 100%; 
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
 }
 
-.css-intro-button {
-  background-color: blue;
-  padding: 6px 12px;
-  border-radius: 6px;
-  color: #fff;
+a {
+  color: white;
+  background-color: red;
+  padding: 20px;
   text-decoration: none;
+  font-size: large;
 }
 
-.css-intro-button:hover {
-  background-color: #110483;
+.gb-buttons {
+  margin: 60px;
 }
 
-/* art button focus interaction */
-.css-intro-button:focus {
-  border: 1px solid #110483;
+.gb-buttons a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Change background on mouse-over */
+a:hover {
+
+}
+
+/* Main content */
+main {
+  margin: 3%;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+}
+
+main p {
+  margin: 5%;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+.gb-landing {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gb-logo {
+  width: 150px;
+  margin-left: 30px;
+}
+
+.gb-employees {
+  margin-top: 150px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.gb-body-text {
+  font-size: x-large;
+}
+
+.gb-order-button{
+  margin: 5%;
 }
